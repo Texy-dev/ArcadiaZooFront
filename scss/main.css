@@ -11977,12 +11977,25 @@ html {
 }
 
 main {
-  margin-bottom: 350px;
+  margin-bottom: 334.19px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
 }
 
 p {
-  font-family: Comic Neue;
+  font-family: "Comic Neue", serif;
   font-size: 14px;
+}
+
+h3, .h3 {
+  font-family: Hanuman;
+  font-size: 18px;
 }
 
 footer.footer {
@@ -11990,4 +12003,24 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 334.19px;
+}
+
+.bgImage {
+  position: relative;
+  margin-bottom: 15px;
+}
+.bgImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/presentationzoo.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+.bgImage * {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
