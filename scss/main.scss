@@ -33,6 +33,10 @@ footer.footer{
     bottom: 0;
     width: 100%;
     height: 334.19px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .bgImage{
@@ -52,5 +56,32 @@ footer.footer{
 
     *{
         position: relative;
+    }
+}
+
+.hero-scene{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/BigTitleBgR.jpg);
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+
+    *{
+        position: relative;
+    }
+
+    .hero-scene-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
