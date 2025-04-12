@@ -12005,6 +12005,10 @@ footer.footer {
   width: 100%;
   height: 334.19px;
 }
+footer.footer a {
+  text-decoration: none;
+  color: white;
+}
 
 .bgImage {
   position: relative;
@@ -12023,4 +12027,95 @@ footer.footer {
 }
 .bgImage * {
   position: relative;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/BigTitleBgR.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.3);
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgBaniere-Savane {
+  position: relative;
+}
+.bgBaniere-Savane::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/SavaneBanièreR4.jpg);
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(0.3);
+}
+.bgBaniere-Savane * {
+  position: relative;
+}
+
+.bgBaniere-Jungle {
+  position: relative;
+}
+.bgBaniere-Jungle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/JungleBanière.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.3);
+}
+.bgBaniere-Jungle * {
+  position: relative;
+}
+
+.bgBaniere-Marais {
+  position: relative;
+}
+.bgBaniere-Marais::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/MaraisBanière.jpg);
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(0.3);
+}
+.bgBaniere-Marais * {
+  position: relative;
+}
+
+.bgBaniere-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
