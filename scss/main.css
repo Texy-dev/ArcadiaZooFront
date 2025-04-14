@@ -12003,7 +12003,7 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 334.19px;
+  height: 335px;
 }
 footer.footer a {
   text-decoration: none;
@@ -12068,7 +12068,7 @@ footer.footer a {
   background-image: url(../images/SavaneBanièreR4.jpg);
   background-size: cover;
   background-position: bottom;
-  filter: brightness(0.3);
+  filter: brightness(0.4);
 }
 .bgBaniere-Savane * {
   position: relative;
@@ -12118,4 +12118,9 @@ footer.footer a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }/*# sourceMappingURL=main.css.map */
