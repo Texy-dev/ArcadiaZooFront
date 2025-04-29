@@ -12123,4 +12123,55 @@ footer.footer a {
 .row {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--bs-modal-header-padding);
+  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+  border-top-left-radius: var(--bs-modal-inner-border-radius);
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-header .btn-close {
+  padding: calc(var(--bs-modal-header-padding-y) * 0.5) calc(var(--bs-modal-header-padding-x) * 0.5);
+  margin-top: calc(-0.5 * var(--bs-modal-header-padding-y));
+  margin-right: calc(-0.5 * var(--bs-modal-header-padding-x));
+  margin-bottom: calc(-0.5 * var(--bs-modal-header-padding-y));
+  margin-left: 0px;
+}
+
+.uicn {
+  background-color: #1B6004;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.uicnVu {
+  background-color: #c9d617;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.ellipse {
+  -webkit-clip-path: ellipse(50% 50%);
+          clip-path: ellipse(50% 50%);
+}
+
+.buttonPerso {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+}
+.buttonPerso :hover {
+  background-color: #601B04;
+  color: white;
+  transition: 0, 7s;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */

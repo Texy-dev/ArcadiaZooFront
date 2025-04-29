@@ -1,0 +1,244 @@
+<div class="hero-scene text-center text-white" style="margin-bottom: 5px;">
+    <div class="hero-scene-content">
+        <h1>Nos animaux</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-lg-3">
+        <div style="align-items: center; display: flex; flex-direction: column;">
+            <img src="/images/Jungle Tamarin ronde.png" alt="Marcel, notre Tamarin">
+            <button class="buttonPerso" data-bs-target="#modaleMarcel" data-bs-toggle="modal"><h3>Marcel</h3></button>
+        </div>
+        <div style="align-items: center; display: flex; flex-direction: column;">
+            <img src="/images/Marais Dundee ronde.png" alt="Dundee, notre alligator">
+            <button class="buttonPerso" data-bs-target="#modaleDundee" data-bs-toggle="modal"><h3>Dundee</h3></button>
+        </div>
+        <div style="align-items: center; display: flex; flex-direction: column;">
+            <img src="/images/Savane Simba ronde.png" alt="Simba, notre lion">
+            <button class="buttonPerso" data-bs-target="#modaleSimba" data-bs-toggle="modal"><h3>Simba</h3></button>
+        </div>
+    </div>
+</div>
+
+<!--Modale Marcel-->
+
+<div class="modal fade" id="modaleMarcel" aria-hidden="true" aria-labelledby="modaleMarcelLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+            <img style="height: 50px; width: 50px;" src="/images/Jungle Tamarin.jpg" class="ellipse" alt="Marcel, notre Tamarin">
+          <h1 class="modal-title fs-5 text-white text-center" id="modaleMarcelLabel">Marcel</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body row">
+          <div class="bg-primary text-white col text-center" style="display: flex; justify-content: space-around; flex-direction: column;">
+            <!--Infos sur l'animal-->
+            <h3 style="margin: 0px;">Tamarin empereur</h3>
+            <p style="font-style: italic;">Saguinus imperator</p>
+            <p><b>Taille :</b> 24,5 cm</p>
+            <p><b>Poid :</b> 398g</p>
+            <p><b>Nourriture préférée :</b> bananes et mangues</p>
+            <div class="row">
+              <p style="margin: 0px;"><b>UICN</b></p>
+              <div class="col" style="display: flex; justify-content: center;align-items: center;">
+                <div class="uicn"><p style="margin: 0; padding-top: 5px;">LC</p></div>
+              </div>
+              <div class="col">
+                <p style="margin: 0px;"> En préoccupation mineure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Infos sur l'espèce + avis véto sur l'animal-->
+            <div>
+              <p>Le tamarin empereur, est un petit primate sud-américain facilement reconnaissable à ses
+                longues moustaches blanches.
+              </p>
+              <p>Son corps, qui mesure environ entre 23 et 26 cm, est pricipalement gris foncé alors que sa queue,
+                longue de 39 à 41,5 cm, est rousse.
+              </p>
+              <p>Il vit dans les arbres et se nourrit de fruits, d’insectes, de petites grenouilles et lézards.</p>
+            </div>
+            <div style="border: solid; border-color: #044960; padding: 5px;">
+              <div style="display: flex; align-items: flex-end; justify-content: flex-start;">
+                <img src="/images/Véto.jpg" width="50px" height="50px" class="ellipse" alt="Véto">
+                <p style="text-align: center; margin-left: 8px;">Véto</p>
+              </div>
+              <p>
+                Marcel est le représentant des primates dans notre zoo.
+                Très curieux, il aime venir au contact des visiteurs et se faire chouchouter par nos soignants.
+              </p>
+              <p style="margin: 0px;">Repas du jour : 30g de bananes et 30g de mangue <br>Etat : en bonne santé <i class="bi bi-emoji-smile"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleMacelUpdate" data-bs-toggle="modal">Modifier ou supprimer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modaleMacelUpdate" aria-hidden="true" aria-labelledby="modaleMacelUpdateLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modaleMacelUpdateLabel">Modal 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hide this modal and show the first with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleMacel" data-bs-toggle="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Modale Dundee-->
+
+<div class="modal fade" id="modaleDundee" aria-hidden="true" aria-labelledby="modaleDundeeLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+            <img style="height: 50px; width: 50px;" src="/images/Marais Dundee 1.jpg" class="ellipse" alt="Dundee, notre alligator">
+          <h1 class="modal-title fs-5 text-white text-center" id="modaleDundee">Dundee</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body row">
+          <div class="bg-primary text-white col text-center" style="display: flex; justify-content: space-around; flex-direction: column;">
+            <!--Infos sur l'animal-->
+            <h3 style="margin: 0px;">Alligator d’Amérique</h3>
+            <p style="font-style: italic;">Alligator mississippiensis</p>
+            <p><b>Taille :</b> 3,8 m</p>
+            <p><b>Poid :</b> 300Kg</p>
+            <p><b>Nourriture préférée :</b> poissons</p>
+            <div class="row">
+              <p style="margin: 0px;"><b>UICN</b></p>
+              <div class="col" style="display: flex; justify-content: center;align-items: center;">
+                <div class="uicn"><p style="margin: 0; padding-top: 5px;">LC</p></div>
+              </div>
+              <div class="col">
+                <p style="margin: 0px;"> En préoccupation mineure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Infos sur l'espèce + avis véto sur l'animal-->
+            <div>
+              <p>L’Alligator d’Amérique est une espèce de crocodiliens de la famille des Alligatoridae. Il se distingue du crocodile qui est plus grand mais avec une machoir moins imposante.
+              </p>
+              <p>Il mesure environ 4,5 mètres et peut peser jusqu’à 500 kilos.
+              </p>
+              <p>Il vit dans les eaux douces comme les marais, les lacs ou les étangs, mais aussi aux abords des rivières.</p>
+              <p>Il se nourrit de poisson, de petits mammifères, comme les castors, d’oiseaux ou de reptiles y compris d’autres alligators. Son métabolisme lent lui permet de rester plusieurs jours sans manger.</p>
+            </div>
+            <div style="border: solid; border-color: #044960; padding: 5px;">
+              <div style="display: flex; align-items: flex-end; justify-content: flex-start;">
+                <img src="/images/Véto.jpg" width="50px" height="50px" class="ellipse" alt="Véto">
+                <p style="text-align: center; margin-left: 8px;">Véto</p>
+              </div>
+              <p>
+                Dundee est le roi des marais.
+                Il passe une grande partie de la journée dans l’eau. Les jours de grand soleil, il aime s’étendre dans l’herbe
+              </p>
+              <p style="margin: 0px;">Dernier repas : 30Kg de poisson <br>Etat : en bonne santé <i class="bi bi-emoji-smile"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleDundeeUpdate" data-bs-toggle="modal">Modifier ou supprimer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modaleDundeeUpdate" aria-hidden="true" aria-labelledby="modaleDundeeUpdateLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modaleDundeeUpdateLabel2">Modal 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hide this modal and show the first with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleDundee" data-bs-toggle="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Modale Simba-->
+
+<div class="modal fade" id="modaleSimba" aria-hidden="true" aria-labelledby="modaleSimbaLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+            <img style="height: 50px; width: 50px;" src="/images/Savane Simba 1.jpg" class="ellipse" alt="Simba, notre lion">
+          <h1 class="modal-title fs-5 text-white text-center" id="modaleSimbaLabel">Marcel</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body row">
+          <div class="bg-primary text-white col text-center" style="display: flex; justify-content: space-around; flex-direction: column;">
+            <!--Infos sur l'animal-->
+            <h3 style="margin: 0px;">Lion d’Afrique</h3>
+            <p style="font-style: italic;">Panthera leo leo</p>
+            <p><b>Taille :</b> 2,5 m</p>
+            <p><b>Poid :</b>  180 Kg</p>
+            <p><b>Nourriture préférée :</b> viande cru</p>
+            <div class="row">
+              <p style="margin: 0px;"><b>UICN</b></p>
+              <div class="col" style="display: flex; justify-content: center;align-items: center;">
+                <div class="uicnVu"><p style="margin: 0; padding-top: 5px;">VU</p></div>
+              </div>
+              <div class="col">
+                <p style="margin: 0px;">Vulnérable</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Infos sur l'espèce + avis véto sur l'animal-->
+            <div>
+              <p>Le lion d’Afrique est un animal des plus emblématique du continent Africain : il est surnommé le roi de la savane.
+              </p>
+              <p>Les lions peuvent mesurer jusqu’à 3,5 mètres de long, de la tête à la queue, et peser entre 150 et 250 kilos. Leur imposante crinière est signe de force et de dominance.
+              </p>
+              <p>Les lions vivent dans les savanes, les prairies et les forêts clairsemées.
+                Carnivores, ils se nourrissent de viande de zèbres, d’antilopes et parfois d’éléphants ou d’hippopotames. Ce sont les femmelles qui chassent pour tous le troupeau.</p>
+            </div>
+            <div style="border: solid; border-color: #044960; padding: 5px;">
+              <div style="display: flex; align-items: flex-end; justify-content: flex-start;">
+                <img src="/images/Véto.jpg" width="50px" height="50px" class="ellipse" alt="Véto">
+                <p style="text-align: center; margin-left: 8px;">Véto</p>
+              </div>
+              <p>
+                Simba est un jeune lion plein de vie et très joueur.
+                Il passe une grande partie de sa journée à se reposer. Il aime aussi faire ses griffes sur des troncs d’arbres, comme les chats, et escalader les rochers d’ou il peut surveiller son territoire.
+              </p>
+              <p style="margin: 0px;">Repas du jour : 6Kg de viande de boeuf <br>Etat : en bonne santé <i class="bi bi-emoji-smile"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleSimbaUpdate" data-bs-toggle="modal">Modifier ou supprimer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modaleSimbaUpdate" aria-hidden="true" aria-labelledby="modaleSimbaUpdateLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modaleSimbaUpdateLabel2">Modal 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hide this modal and show the first with the button below.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#modaleSimba" data-bs-toggle="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
